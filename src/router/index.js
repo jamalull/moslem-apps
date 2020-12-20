@@ -6,6 +6,7 @@ import Atasan from '../views/AtasanPage.vue'
 import Bawahan from '../views/BawahanPage.vue'
 import Aksesoris from '../views/AksesorisPage.vue'
 import Hijab from '../views/HijabPage.vue'
+import Keranjang from '../views/Keranjang.vue'
 
 Vue.use(VueRouter)
 
@@ -46,6 +47,11 @@ const routes = [{
     path: '/hijab',
     name: 'categoryhijab',
     component: Hijab
+  },
+  {
+    path: '/keranjang',
+    name: 'keranjang',
+    component: Keranjang
   }
 ]
 
