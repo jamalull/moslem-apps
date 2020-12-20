@@ -44,16 +44,16 @@
                                             <table>
                                                 <tbody>
                                                     <tr align="center">
-                                                        <td> <a href="#">Atasan</a></td>
+                                                        <td> <router-link to="/atasan">Atasan</router-link></td>
                                                     </tr>
                                                     <tr align="center">
-                                                        <td> <a href="#">Bawahan</a></td>
+                                                        <td><router-link to="/bawahan">Bawahan</router-link></td>
                                                     </tr>
                                                     <tr align="center">
-                                                        <td> <a href="#">Aksesoris</a></td>
+                                                        <td><router-link to="/aksesoris">Aksesoris</router-link></td>
                                                     </tr>
                                                     <tr align="center">
-                                                        <td> <a href="#">Hijab</a></td>
+                                                        <td><router-link to="/hijab">Hijab</router-link></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
